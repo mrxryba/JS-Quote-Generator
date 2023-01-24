@@ -1,0 +1,80 @@
+/*Basic Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*Quote */
+
+body {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url(../img/library.jpg) no-repeat center center/ cover;
+
+}
+
+.container {
+    height: 450px;
+    width: 550px;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: .375em;
+    background-color: #262626;
+    color: #fff;
+    width: 80%;
+    padding: .375em;
+    margin: 20px auto;
+}
+
+.main-content {
+    width: 100%;
+    height: 300px;
+    padding: 3.125em 2.5em;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    min-height: 5em;
+}
+
+
+.main-content .person {
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+.button-area button {
+    border: none;
+    background-color: #262626;
+    color: #fff;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: .625rem 1rem;
+}
+
+.button-area button:active {
+    background-color: lightblue;
+
+}
+
+
+
