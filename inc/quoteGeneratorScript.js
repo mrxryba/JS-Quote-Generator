@@ -37,7 +37,6 @@ const quotes = [
 
 function changeQuote() {
     let randomNumber = Math.floor(Math.random() * (quotes.length));
-    console.log(randomNumber)
     quoteText.innerText = quotes[randomNumber].quote;
     personText.innerText = quotes[randomNumber].person;
 }
